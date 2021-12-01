@@ -23,10 +23,11 @@
 6. You're done.
 
 
-## Gem's included:
-- dotenv
-- postgres
-- devise
-- active admin
-- carrierwave
-- aws 
+## Included:
+- Bootstrap & Jquery
+- gem dotenv
+- gem postgres
+- gem devise
+- gem active admin
+- gem carrierwave
+- gem aws 
