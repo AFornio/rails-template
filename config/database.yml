@@ -1,0 +1,21 @@
+common: &common
+  encoding: utf8
+  adapter: postgresql
+  username: postgres
+  password:
+  min_messages: WARNING
+  host: localhost
+  pool: 5
+development:
+  <<: *common
+  port: 5432
+  database: rails_template
+production:
+  <<: *common
+  port: 5432
+  database: rails_template_prod
+test:
+  <<: *common
+  host: localhost
+  port: 5432
+  database: rails_template_test
